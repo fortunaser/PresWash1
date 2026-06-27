@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pressure Washing Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <!-- ======================================
+         HEADER
+         REPLACE:
+         - Company Logo
+	 - Company Name
+    ======================================= -->
+    <header>
+	   <div class="name-logo-group">
+            <a href="index.html"><img src="sample-logo.png" alt="logo" class="logo"></a>
+	    <h2 class="coname">COMPANY NAME</h2>
+	   </div>
+
+	<nav>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ======================================
+         HERO SECTION
+         REPLACE:
+         - Background Image
+         - Headline
+         - Subheadline
+    ======================================= -->
+    <section id="home" style="background-image: linear-gradient(90deg,rgba(0,2,183,0.5),rgba(0,0,0,0.3)),url('pwd1.png');">
+        <div>
+            <h1>Professional Pressure Washing Services</h1>
+            <p>
+                Restore your home's appearance with reliable,
+                affordable pressure washing.
+            </p>
+
+            <a href="#contact">
+                <button>CONTACT US TODAY</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- ======================================
+         TRUST INDICATORS
+         REPLACE:
+         - Credentials
+         - Guarantees
+    ======================================= -->
+    <section>
+        <div class="trust-card">
+            <h3>✓ Licensed</h3>
+            <h3>✓ Insured</h3>
+            <h3>✓ Free Estimates</h3>
+            <h3>✓ Satisfaction Guaranteed</h3>
+        </div>
+    </section>
+
+    <section class="spray">
+	<canvas class="sprayCanvas"></canvas>
+    </section>
+
+    <!-- ======================================
+         CUSTOMER REVIEWS
+         REPLACE:
+         - Customer Names
+         - Review Text
+    ======================================= -->
+    <section id="reviews">
+        <h2>What Our Customers Say</h2>
+       <div class="card-container">
+        <article class="card">
+            <h4>★★★★★</h4>
+            <p>
+                "Excellent service and great results!"
+            </p>
+            <strong>- Customer Name</strong>
+        </article>
+
+        <article class="card">
+            <h4>★★★★★</h4>
+            <p>
+                "My driveway looks brand new."
+            </p>
+            <strong>- Customer Name</strong>
+        </article>
+
+        <article class="card">
+            <h4>★★★★★</h4>
+            <p>
+                "Fast, professional, and affordable."
+            </p>
+            <strong>- Customer Name</strong>
+        </article>
+       </div>
+    </section>
+
+    <!-- ======================================
+         SERVICES SECTION
+         REPLACE:
+         - Images
+         - Service Names
+         - Descriptions
+    ======================================= -->
+    <section id="services">
+        <h2>Our Services</h2>
+	<div class="services">
+        <div class="service">
+            <img src="home-icon.svg" alt="House Washing" class="icon">
+            <h3 class="service-title">House Washing</h3>
+            <p class="service-desc">
+                Safely remove dirt, mildew, and grime.
+            </p>
+        </div>
+	<div class="horzine"></div>
+        <div class="service">
+            <img src="driveway-icon.svg" alt="Driveway Cleaning" class="icon">
+            <h3 class="service-title">Driveway Cleaning</h3>
+            <p class="service-desc">
+                Restore concrete and remove stains.
+            </p>
+        </div>
+	<div class="horzine"></div>
+        <div class="service">
+            <img src="deck-icon.svg" alt="Deck Cleaning" class="icon">
+            <h3 class="service-title">Deck Cleaning</h3>
+            <p class="service-desc">
+                Refresh wood and outdoor surfaces.
+            </p>
+        </div>
+	</div>
+    </section>
+
+    <!-- ======================================
+         BEFORE & AFTER GALLERY
+         REPLACE:
+         - All Images
+    ======================================= -->
+    <section id="gallery">
+        <h2>Before & After Results</h2>
+
+        <div class="before-after">
+            <img src="sidewalk-before.png" alt="Before" class="before">
+		<h1 class="arrow">›››</h1>
+            <img src="sidewalk-after.png" alt="After" class="after">
+        </div>
+<hr>
+        <div class="before-after">
+            <img src="house-before.png" alt="Before" class="before">
+		<h1 class="arrow">›››</h1>
+            <img src="house-after.png" alt="After" class="after">
+        </div>
+<hr>
+        <div class="before-after">
+            <img src="deck-before.png" alt="Before" class="before">
+		<h1 class="arrow">›››</h1>
+            <img src="deck-after.png" alt="After" class="after">
+        </div>
+    </section>
+    
+    <section class="spray">
+	<canvas class="sprayCanvas sc2"></canvas>
+    </section>
+
+<script src="spray.js"></script>
+
+    <!-- ======================================
+         ABOUT SECTION
+         REPLACE:
+         - Owner Image
+         - Company Story
+         - Years Experience
+    ======================================= -->
+    <section id="about">
+        <h2>About Our Company</h2>
+	<div class="info">
+        <img src="default-avatar.png" alt="Business Owner" class="profile">
+
+        <p class="card ab-p">
+            We are a locally owned pressure washing company
+            dedicated to helping homeowners and businesses
+            keep their properties looking their best.
+        </p>
+
+	</div>
+    </section>
+
+    <!-- ======================================
+         CALL TO ACTION
+         REPLACE:
+         - Headline
+         - Button Text
+    ======================================= -->
+    <section class="cta">
+        <h2 class="cta-heading">Ready To Restore Your Property?</h2>
+
+        <a href="#contact">
+            <button>CONTACT US TODAY</button>
+        </a>
+    </section>
+
+    <!-- ======================================
+         CONTACT SECTION
+         REPLACE:
+         - Phone Number
+         - Email
+         - Service Area
+         - Form Action
+    ======================================= -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+	<div class="services">
+        <div class="service">
+            <a href="tel:+15555555555"><img src="phone-icon.svg" alt="House Washing" class="icon"></a>
+            <h3 class="service-title">Phone</h3>
+            <p class="service-desc butact">
+                (555) 555-5555
+            </p>
+        </div>
+	<div class="horzine"></div>
+        <div class="service">
+            <a href="mailto:info@example.com?subject=Service Inquiry"><img src="mail-icon.svg" alt="Driveway Cleaning" class="icon"></a>
+            <h3 class="service-title">Email</h3>
+            <p class="service-desc butact">
+                info@example.com
+            </p>
+        </div>
+	<div class="horzine"></div>
+        <div class="service">
+            <img src="location-icon.svg" alt="Deck Cleaning" class="icon">
+            <h3 class="service-title">Location</h3>
+            <p class="service-desc butact">
+                Your City, State
+            </p>
+        </div>
+	</div>
+    </section>
+
+    <!-- ======================================
+         FOOTER
+         REPLACE:
+         - Company Name
+         - Social Links
+         - Copyright Year
+    ======================================= -->
+    <footer>
+        <p>
+            © 2026 [Company Name]. All Rights Reserved.
+        </p>
+
+        <a href="#">Facebook</a> |
+        <a href="#">Instagram</a> |
+        <a href="#">Google Reviews</a>
+    </footer>
+</div>
+</body>
+</html>
